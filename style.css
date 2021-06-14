@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: gray;
+}
+.container {
+  max-width: 1000px;
+  background-color: burlywood;
+  margin: 0 auto;
+  padding: 20px;
+}
+.shahinur-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid white;
+  float: left;
+}
+.header-bio {
+  float: left;
+  padding: 20px;
+}
+.header-contact {
+  float: right;
+}
+.header-contact a:hover {
+  color: tomato;
+  text-decoration: underline;
+  font-weight: bold;
+}
+hr {
+  border: 3px solid black;
+  width: 100%;
+  border-bottom: none;
+  margin: 20px auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(66, 52, 50);
+}
+.clear-div {
+  clear: both;
+}
+.left-div {
+  width: 30%;
+  float: left;
+}
+.right-div {
+  width: 70%;
+  float: left;
+}
+.common-clear {
+  border: 1px solid black;
+  width: 100%;
+  border-bottom: none;
+}
+.left-skill {
+  float: left;
+  width: 45%;
+}
+.right-skill {
+  float: left;
+  width: 45%;
+}
+.common-skill-bold {
+  font-weight: bold;
+}
+.others {
+  margin-bottom: 10px;
+}
+.feature-part {
+  padding-left: 60px;
+}
+.project-part1 {
+  float: left;
+  box-sizing: border-box;
+  width:30%;
+}
+.project-name{
+    font-size:12px;
+}
+.project-part2 {
+  float: left;
+  box-sizing: border-box;
+  width:30%;
+}
+.project-part3{
+    width:30%;
+    float: left;
+}
